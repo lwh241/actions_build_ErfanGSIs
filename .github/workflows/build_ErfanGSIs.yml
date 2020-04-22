@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://jaist.dl.sourceforge.net/project/coltos/Violet/ColtOS-v5.8-Official-20200413-violet.zip
-  ROM_NAME: Generic
+  ROM_URL: http://bigota.d.miui.com/V11.0.4.0.PCHCNXM/miui_MINote3_V11.0.4.0.PCHCNXM_fb1a28dfe0_9.0.zip
+  ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
 jobs:
@@ -58,9 +58,8 @@ jobs:
               mkdir final
               zip -r final/GSI.zip /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/
        
-       - name: Upload GSI to WeTransfer
+       - name: Upload GSI to TmpLink
          run: |
-              curl -sL https://git.io/file-transfer | sh
-              ./transfer wet final/GSI.zip
+              curl -k -F "file=@/home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/final/GSI.zip" -F "token=7ztvoie4i0" -F "model=3" -X POST "https://connect.tmp.link/api_v2/cli_uploader"
          
             
