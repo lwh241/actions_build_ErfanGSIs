@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://download.pixelexperience.org/changelog/wayne/PixelExperience_Plus_wayne-10.0-20200416-1806-OFFICIAL.zip
-  ROM_NAME: Generic
+  ROM_URL: https://firmware.meizu.com/Firmware/Flyme/16s/8.20.4.14/cn_beta/20200410115330/4ed0d83d/update.zip
+  ROM_NAME: Flyme 9
   TZ: Asia/Shanghai
 
 jobs:
