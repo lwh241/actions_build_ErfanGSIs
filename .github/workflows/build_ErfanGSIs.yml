@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://firmware.meizu.com/Firmware/Flyme/16s/8.20.4.14/cn_beta/20200410115330/4ed0d83d/update.zip
-  ROM_NAME: Flyme 9
+  ROM_URL: http://bigota.d.miui.com/V11.0.4.0.PFMCNXM/miui_LAURUS_V11.0.4.0.PFMCNXM_606fd6ecac_9.0.zip
+  ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
 jobs:
@@ -58,10 +58,10 @@ jobs:
               mkdir final
               zip -r final/GSI.zip /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/
        
-       - name: Upload GSI to WeTransfer
+       - name: Upload GSI to TmpLink
          run: |
-              curl -sL https://git.io/file-transfer | sh
-              ./transfer wet final/GSI.zip
+              curl -k -F "file=@/home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/final/GSI.zip" -F "token=7ztvoie4i0" -F "model=3" -X POST "https://connect.tmp.link/api_v2/cli_uploader"
+
 
          
             
