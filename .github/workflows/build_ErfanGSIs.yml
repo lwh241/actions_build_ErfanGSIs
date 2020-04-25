@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://fs.oppo.com/3/oppowww/androidrom/pclm50/PCLM50_11_OTA_0050_all_1As8Y28MytvJ.ozip
-  ROM_NAME: MIUI
+  ROM_URL: https://firmware.meizu.com/Firmware/Flyme/16xs/8.20.4.14/cn_beta/20200408191432/fb935ddf/update.zip
+  ROM_NAME: Flyme 9
   TZ: Asia/Shanghai
 
 jobs:
