@@ -62,7 +62,8 @@ jobs:
        
        - name: Upload GSI to TmpLink
          run: |
-              curl -k -F "file=@/home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/final/GSI.zip" -F "token=7ztvoie4i0" -F "model=3" -X POST "https://connect.tmp.link/api_v2/cli_uploader"
+              curl -k -F "file=@/home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/final/GSI.zip" -F "token=cyhfba38s7" -F "model=3" -X POST "https://connect.tmp.link/api_v2/cli_uploader"
+
 
 
          
