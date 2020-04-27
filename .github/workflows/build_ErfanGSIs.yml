@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://download.h2os.com/OnePlus7/MP/OnePlus7Hydrogen_14.H.24_OTA_024_all_2003161857_eaff3a5344084188.zip
-  ROM_NAME: OxygenOS
+  ROM_URL: https://hugeota.d.miui.com/20.4.27/miui_HMNote5_20.4.27_0bdc4d616e_9.0.zip
+  ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
 jobs:
