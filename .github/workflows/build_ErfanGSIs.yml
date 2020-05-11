@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://download.meizu.com/Firmware/Flyme/16s/8.1.0.0/cn/20200429154837/faf99a75/update.zip 
+  ROM_URL: https://firmware.meizu.com/Firmware/Flyme/m2091/8.1.2.0/cn/20200430030803/b9a2a945/update.zip 
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
