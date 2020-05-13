@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://download.meizu.com/Firmware/Flyme/16/8.1.0.0/cn/20200429152458/e26790c8/update.zip 
+  ROM_URL: https://download.meizu.com/Firmware/Flyme/M1852/8.1.0.0/cn/20200430093456/d66a125d/update.zip 
   ROM_NAME: Flyme
   TZ: Asia/Shanghai
 
