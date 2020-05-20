@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://bigota.d.miui.com/20.5.14/miui_DAVINCI_20.5.14_dbb7d25c61_10.0.zip 
+  ROM_URL: https://hugeota.d.miui.com/20.5.20/miui_CEPHEUS_20.5.20_6d52ff3f80_10.0.zip
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
