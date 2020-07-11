@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://sysupwrdl.vivo.com.cn/upgrade/official/officialFiles/PD1824_A_6.12.6-update-full_1588218310.zip
+  ROM_URL: http://sysupwrdl.vivo.com.cn/upgrade/official/officialFiles/PD1728_A_1.21.5-update-full_1536200892.zip
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
