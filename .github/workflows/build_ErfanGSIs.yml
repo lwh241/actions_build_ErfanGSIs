@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://firmware.meizu.com/Firmware/Flyme/note9/8.1.0.0/cn/20200521143230/43ceb330/update.zip
-  ROM_NAME: Flyme
+  ROM_URL: http://sysupwrdl.vivo.com.cn/upgrade/official/officialFiles/PD1824_A_6.12.6-update-full_1588218310.zip
+  ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
 jobs:
