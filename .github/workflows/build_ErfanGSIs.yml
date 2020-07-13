@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://sysupwrdl.vivo.com.cn/upgrade/official/officialFiles/PD1809_A_6.25.3-update-full_1588218352.zip
+  ROM_URL: http://111.225.215.1/bigota.d.miui.com/9.8.22/miui_CEPHEUS_9.8.22_aa27670572_10.0.zip
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
@@ -42,7 +42,7 @@ jobs:
             sudo -E apt-get -qq install git openjdk-8-jdk
        
        - name: Clone ErfanGSI Source Code
-         run: git clone --recurse-submodules https://github.com/erfanoabdi/ErfanGSIs.git
+         run: git clone --recurse-submodules https://github.com/lwh241/ErfanGSIs.git
        
        - name: Setting up ErfanGSI requirements
          run: |
