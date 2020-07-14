@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://111.225.215.1/bigota.d.miui.com/9.8.22/miui_CEPHEUS_9.8.22_aa27670572_10.0.zip
-  ROM_NAME: MIUI
+  ROM_URL: https://firmware.meizu.com/Firmware/Flyme/note9/8.20.6.30/cn_beta/20200629214147/cc973720/update.zip
+  ROM_NAME: Flyme 9
   TZ: Asia/Shanghai
 
 jobs:
