@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://dl3.smartisan.com/ota/mol.ocean-rom-7.0.0-SEKSA.ocean-user/202007271233/7.1.1-202007271136-user-oce-649a828cf6.zip
+  ROM_URL: https://dl3.smartisan.com/ota/rls.delta-mol-7.0.0-20200429-SEKSA.delta-user/202005061620/7.3.1-202005061416-user-dlt-50c0afe951.zip
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
