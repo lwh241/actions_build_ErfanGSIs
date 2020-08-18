@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://dl3.smartisan.com/ota/rls.delta-mol-7.0.0-20200429-SEKSA.delta-user/202005061620/7.3.1-202005061416-user-dlt-50c0afe951.zip
+  ROM_URL: https://download.meizu.com/Firmware/Flyme/note9/8.20.8.12/cn_daily/20200812003720/5d107283/update.zip
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
