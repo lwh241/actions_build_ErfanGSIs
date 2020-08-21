@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://download.meizu.com/Firmware/Flyme/note9/8.20.8.12/cn_daily/20200812003720/5d107283/update.zip
+  ROM_URL: https://download.meizu.com/Firmware/Flyme/note9/8.20.8.20/cn_daily/20200820003715/0440932a/update.zip
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
