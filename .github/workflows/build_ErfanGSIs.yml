@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://download.meizu.com/Firmware/Flyme/16xs/8.20.8.26/cn_daily/20200826100303/7e85f20d/update.zip
+  ROM_URL: https://download.meizu.com/Firmware/Flyme/16xs/8.20.9.29/cn_daily/20200929155207/8132846e/update.zip
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
