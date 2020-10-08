@@ -15,7 +15,7 @@ on:
     
 env:
   ROM_URL: https://master.dl.sourceforge.net/project/aosip-jason/AOSiP-9.0-Pizza-jason-20190326.zip
-  ROM_NAME: Generic
+  ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
 jobs:
