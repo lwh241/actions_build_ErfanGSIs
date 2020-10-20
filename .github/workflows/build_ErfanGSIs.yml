@@ -15,7 +15,7 @@ on:
     
 env:
   ROM_URL: http://bigota.d.miui.com/20.10.20/miui_DAVINCI_20.10.20_b436860943_11.0.zip
-  ROM_NAME: Generic
+  ROM_NAME: Pixel
   TZ: Asia/Shanghai
 
 jobs:
