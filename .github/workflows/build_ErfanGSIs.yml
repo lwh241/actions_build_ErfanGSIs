@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://bigota.d.miui.com/20.10.20/miui_DAVINCI_20.10.20_b436860943_11.0.zip
-  ROM_NAME: Pixel
+  ROM_URL: https://download.meizu.com/Firmware/Flyme/16xs/8.20.10.13/cn_daily/20201013100406/c7bbb7b6/update.zip
+  ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
 jobs:
