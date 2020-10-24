@@ -62,10 +62,10 @@ jobs:
       
               zip -r final/GSI.zip /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/
        
-       - name: Upload GSI to Cowtransfer
+       - name: Upload GSI to WeTransfer
          run: |
-              curl -sL https://git.io/cowtransfer | sh 
-              ./cowtransfer-uploader final/GSI.zip
+             curl -sL https://git.io/file-transfer | sh
+             ./transfer wet final/GSI.zip
 
 
 
