@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://download.c.realme.com/osupdate/RMX1851_11_OTA_1070_all_zEorbKjOSMus.ozip
+  ROM_URL: https://down.ws59.cn/qczlo98/3/xh/3xh1qczlo98?cdn_sign=1604760104-68-0-d30169d0a874b26179cb14f4abcdad1e&response-content-disposition=attachment%3B%20filename%3D%22PAFM00_11_OTA_3160_all_LyYu0qSFS1JZ.zip%22%3B%20filename%2A%3Dutf-8%27%27PAFM00_11_OTA_3160_all_LyYu0qSFS1JZ.zip
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
