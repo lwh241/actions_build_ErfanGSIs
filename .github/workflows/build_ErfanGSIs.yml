@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://master.dl.sourceforge.net/project/aosip-jason/AOSiP-9.0-Pizza-jason-20190326.zip
-  ROM_NAME: Generic
+  ROM_URL: https://download.c.realme.com/osupdate/RMX1851_11_OTA_1070_all_zEorbKjOSMus.ozip
+  ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
 jobs:
