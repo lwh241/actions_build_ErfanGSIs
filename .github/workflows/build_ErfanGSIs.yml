@@ -62,12 +62,11 @@ jobs:
       
               zip -r final/GSI.zip /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/
        
-       - name: Update release
-         uses: johnwbyrd/update-release@v1.0.0
-         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          files: final/GSI.zip
-          prerelease: false
+       - name: Upload GSI to Cowtransfer
+         run: |
+              curl -sL https://git.io/cowtransfer | sh 
+              ./cowtransfer-uploader final/GSI.zip
+
 
 
          
