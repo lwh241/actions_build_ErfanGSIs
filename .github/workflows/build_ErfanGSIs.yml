@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://download.meizu.com/Firmware/Flyme/16xs/8.20.11.10/cn_daily/20201110041237/66d7b4a4/update.zip
+  ROM_URL: https://bigota.d.miui.com/20.12.9/miui_RAPHAEL_20.12.9_8a0621754f_10.0.zip
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
