@@ -5,7 +5,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://download.c.realme.com/osupdate/RMX1851_11_OTA_1110_all_mvJ20n1zmvS1.ozip
+  ROM_URL: https://coloroswebsitefs.coloros.com/coloroswebsite-coloros-com/grs_20201230124925/PCHM10_11_OTA_1740_all_jhsYP912dWNY.ozip
   ROM_NAME: MIUI
   BUILD_AB: true
   BUILD_AONLY: false
