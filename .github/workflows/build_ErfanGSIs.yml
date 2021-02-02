@@ -10,7 +10,7 @@ env:
   BUILD_AB: true
   BUILD_AONLY: false
   ROM_AONLY: MAX3_Aonly_20.8.6-eu.7z
-  ROM_AB: A11c7.1.7z
+  ROM_AB: A11c7.7z
 
 jobs:
   build:
