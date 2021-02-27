@@ -5,12 +5,12 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://download.c.realme.com/osupdate/RMX1901_11_OTA_1170_all_E0xAxtdGULwW.ozip
+  ROM_URL: https://www.github.com/
   ROM_NAME: Generic
   BUILD_AB: true
   BUILD_AONLY: false
   ROM_AONLY: MAX3_Aonly_20.8.6-eu.7z
-  ROM_AB: realmex.7z
+  ROM_AB: r17pro.7z
 
 jobs:
   build:
