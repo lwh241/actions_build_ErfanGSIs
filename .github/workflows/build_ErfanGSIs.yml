@@ -5,12 +5,12 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://down.ws59.cn/mssnbfs/4/tc/4tcqmssnbfs?cdn_sign=1614409698-69-0-da6441c358f318793cd1dacd27193b74&exp=9600&response-content-disposition=attachment%3B%20filename%3D%22PBDM00_11_OTA_3160_all_re9fhqD7Bh1r.zip%22%3B%20filename%2A%3Dutf-8%27%27PBDM00_11_OTA_3160_all_re9fhqD7Bh1r.zip
+  ROM_URL: https://wlansysupwrrdl.vivo.com.cn/upgrade/recovery/recoveryFiles/20210202202945c69589b3a579c8c04a669b6c70b2e9a0.zip
   ROM_NAME: Generic
   BUILD_AB: true
   BUILD_AONLY: false
   ROM_AONLY: MAX3_Aonly_20.8.6-eu.7z
-  ROM_AB: r17pro.7z
+  ROM_AB: origin.7z
 
 jobs:
   build:
