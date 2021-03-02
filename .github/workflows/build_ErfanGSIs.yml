@@ -5,7 +5,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://wlansysupwrrdl.vivo.com.cn/upgrade/recovery/recoveryFiles/20210202202945c69589b3a579c8c04a669b6c70b2e9a0.zip
+  ROM_URL: https://oxygenos.oneplus.net/OnePlus7Oxygen_14.P.32_OTA_032_all_2101280019_b2a62765ba0c485e.zip
   ROM_NAME: Generic
   BUILD_AB: true
   BUILD_AONLY: false
