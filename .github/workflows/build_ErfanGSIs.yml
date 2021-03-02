@@ -6,11 +6,11 @@ on:
     
 env:
   ROM_URL: https://oxygenos.oneplus.net/OnePlus7Oxygen_14.P.32_OTA_032_all_2101280019_b2a62765ba0c485e.zip
-  ROM_NAME: Generic
+  ROM_NAME: oxygenos
   BUILD_AB: true
   BUILD_AONLY: false
   ROM_AONLY: MAX3_Aonly_20.8.6-eu.7z
-  ROM_AB: origin.7z
+  ROM_AB: oxygen.7z
 
 jobs:
   build:
